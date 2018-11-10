@@ -1,0 +1,79 @@
+<html>
+<style>
+body {
+ background-image:url(img/Blood.jpg);
+    background-position:90% 10%;
+    background-repeat: repeat;
+}
+#Page {
+    width: 60%;
+    border: 2px solid black;
+    padding: 25px;
+    margin: 40px 40px 40px auto; 
+    background-color: 	#FFFFFF;
+}
+h1{
+  font-family:Lora;
+  font-size:30px;
+}
+#info {
+   
+    border: 2px inset;
+    padding: 25px;
+    margin: 50px auto 50px auto;
+    background-color: 	#EEEEEE	;
+    
+}
+
+</style>
+<head>
+
+    <title>Blood Donation</title>
+    <link rel="icon" type="image/png"
+	href="img/fav.png">
+</head>
+
+<body>
+<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet" type="text/css">
+
+<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+<div id=Page class="container-fluid">
+  <h1 class="text-center" allignment="center" style="text-align:center"><strong><u>Personal Details Form</u></strong></h1>
+  <p allignment="center" id="quote1" align="center" style="font-family:Comic Sans MS">
+    <i>"The blood you donate gives someone another chance at life. One day that someone may be a close relative, a friend, a loved one—or even you."</i><br /></p>
+
+<form  action="form2.html" method="POST">
+
+<div id="info">
+        <br><br><br>Full Name : <input required type="text" name="nm" placeholder="eg. Oliver Smith"><br>
+        <br><br>Date of Birth <input required type="date" name="dob" ><br>
+        <br><br>Blood Group :
+    <select name="bloodgroup">
+    <option name="A+">A+</option>
+    <option name="B+">B+</option>
+    <option name="AB+">AB+</option>
+    <option name="O+">O+</option>
+    <option name="A-">A-</option>
+    <option name="B-">B-</option>
+    <option name="AB-">AB-</option>
+    <option name="O-">O-</option>
+</select><br>
+        <br><br>Occupation : <input required type="text" name="occupation"  placeholder="eg. Businessman"><br>
+       <br><br>Gender : 
+    <select name="gender">
+        <option name="Male">Male</option>
+        <option name="Female">Female</option>
+        <option name="Other">Other</option>
+</select><br>
+    <br><br>Address : <input required type="text" name="address" placeholder="Parmanent address "><br>
+    <br><br>Phone Number : <input required type="text" name="Phone" placeholder="Mobile/Landline"><br>
+    <br>
+       <br><br> <input value="Submit" type="submit">
+</div>
+</form>
+
+
+
+    </div>
+</body>
+</html>

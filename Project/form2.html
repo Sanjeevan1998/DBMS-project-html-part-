@@ -1,0 +1,78 @@
+<html>
+<style>
+body {
+ background-image:url(img/bld.png);
+    
+    background-repeat: no-repeat;
+    background-size: 1200px 1000px;
+}
+#Page {
+    width: 50%;
+    border: 2px solid black;
+    padding: 25px;
+    margin: 40px 40px 120px auto; 
+    background-color: 	#FFFFFF;
+}
+h1{
+  font-family:Lora;
+  font-size:30px;
+}
+#info {
+   
+    border: 2px inset;
+    padding: 25px;
+    margin: 50px auto 50px auto;
+    background-color: 	#EEEEEE	;
+    
+}
+
+</style>
+<head>
+
+    <title>Blood Donation</title>
+    <link rel="icon" type="image/png"
+	href="img/fav.png">
+</head>
+
+<body>
+    
+    
+    
+    
+<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet" type="text/css">
+
+<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+<div id=Page class="container-fluid">
+  <h1 class="text-center" allignment="center" style="text-align:center"><strong><u>Medical Details Form</u></strong></h1>
+  <p allignment="center" id="quote1" align="center" style="font-family:Comic Sans MS">
+    <i>"Tears of a mother cannot save her Child. But your Blood can."</i><br /></p>
+
+<form  action="home.html" method="POST" onSubmit="alert('Thank you for your valuable time.');">
+
+<div id="info">
+        <br><br><br>Age : <input required type="number" name="age" min="18" max="65"><br>
+        <br><br>Weight : <input required type="number" name="weight" ><br>
+        <br><br>Did you undergo any surgery recently (within 12 months)? :
+    <select name="q1">
+    <option name="Yes">Yes</option>
+    <option name="No">No</option>
+</select><br>
+        <br><br>Do you have any tattoo(s) on your body?:
+    <select name="q2">
+    <option name="Yes">Yes</option>
+    <option name="No">No</option>
+</select><br>    
+        <br><br>Did you face any kind of injury recently (within 12 months)? :
+    <select name="q1">
+    <option name="Yes">Yes</option>
+    <option name="No">No</option>
+</select><br>
+       <br><br> <input value="Submit" type="submit" >
+</div>
+</form>
+
+
+
+    </div>
+</body>
+</html>
